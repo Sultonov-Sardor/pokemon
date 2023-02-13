@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Pikachu</title>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <button class="mode-button js-btn">
+        <img class="js-img" src="./images/white.svg" alt="">
+      </button>
+      <div class="box-2">
+        <form class="js-form">
+          <input class="search js-search" type="search" placeholder="Enter pokemon name or id">
+        </form>
+        <select class="select js-select">
+          <option value="All">All</option>
+        </select>
+        <select class="select js-selectSort">
+          <option value="Sort">Sort</option>
+          <option value="A-Z">A-Z</option>
+          <option value="Z-A">Z-A</option>
+        </select>
+      </div>
+    </div>
+
+    <ul class="js-list list">
+    </ul>
+
+
+  </div>
+</body>
+<script src="./js/pokemons.js"></script>
+<script src="./js/main.js"></script>
+</html>
